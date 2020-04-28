@@ -1,6 +1,6 @@
 // Program to have (i^j)%d , where i^j is very bug number. Bigger than what can be stored in int or double.
 // We do it with recursion using the property (i^j)%d = (i%d * (i^(j-1))%d)%d
-
+// the time complexity is O(log n)
 public class modulo {
 
 	static int imod[];
